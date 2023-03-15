@@ -32,5 +32,5 @@ submit_button = driver.find_element(By.CSS_SELECTOR, ".submit-submission")
 submit_button.click()
 time.sleep(5)
 
-# После выполнения всех действий мы должны не забыть закрыть окно браузера
+# После выполнения всех действий мы должны не забыть закрыть окно браузера (проверка изменения git)
 driver.quit(5)
